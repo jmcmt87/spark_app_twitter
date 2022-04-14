@@ -1,0 +1,7 @@
+{
+    "kafka_servers": "localhost:9092,localhost:9093,localhost:9094",
+    "topic_list": "Zelensky,Putin,Biden,NATO,NoFlyZone",
+    "checkpoint_path": "s3a://datalake-twitter-app/spark_checkpoints/",
+    "s3_path_raw": "s3a://datalake-twitter-app/raw_datalake/",
+    "s3_path_processed":"s3a://datalake-twitter-app/processed_datalake/"
+}
