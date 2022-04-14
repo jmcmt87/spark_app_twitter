@@ -15,7 +15,7 @@ import numpy
 
 # Getting necessary variables for configuration
 
-load_dotenv(dotenv_path='/Users/mac/Documents/TFM/tests/.env')
+load_dotenv(dotenv_path='/Users/mac/Documents/TFM/spark_app/.env')
 ACCESS_KEY = os.getenv("ACCESS_KEY")
 SECRET_ACCESS_KEY = os.getenv("SECRET_ACCESS_KEY")
 mongoDB = os.getenv("mongoDB")
