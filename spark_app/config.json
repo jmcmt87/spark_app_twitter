@@ -4,7 +4,7 @@
     "checkpoint_path": "s3a://datalake-twitter-app/spark_checkpoints/",
     "s3_path_raw": "s3a://datalake-twitter-app/raw_datalake/",
     "s3_path_processed": "s3a://datalake-twitter-app/processed_datalake/",
-    "ACCESS_KEY": "AKIAR2ZKMHR446HYCJMU",
-    "SECRET_ACCESS_KEY": "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",
-    "mongoDB": "mongodb+srv://writer_jmcmt87:od9TzLHvweh9NcoX@cluster0.db1xm.mongodb.net/aggregated.aggregated_data_twitter?retryWrites=true&w=majority"
+    "ACCESS_KEY": "XXXXXXXXXXXXXXXXX",
+    "SECRET_ACCESS_KEY": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "mongoDB": "mongodb+srv://<username>:<password>@<clustername>.mongodb.net/<database>.<collection>?retryWrites=true&w=majority"
 }
