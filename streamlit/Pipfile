@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 pymongo = {extras = ["srv"], version = "4.1.1"}
 streamlit = "1.8.1"
-pandas = "1.4.2"
+pandas = "*"
 certifi = "2021.10.08"
 altair = "4.2.0"
 jupyter = "*"
