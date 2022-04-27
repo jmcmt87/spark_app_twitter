@@ -14,8 +14,8 @@ import pymongo
 import certifi 
 import typing
 
-from utilities import process_data, open_json
-from charts import *
+from utilities.utilities import process_data, open_json
+from charts.charts import *
 
 
 
