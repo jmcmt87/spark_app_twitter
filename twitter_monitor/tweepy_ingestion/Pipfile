@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tweepy = "4.7.0"
+numpy = "1.22.3"
+kafka-python = "*"
+confluent-kafka = "1.8.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
