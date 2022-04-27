@@ -32,4 +32,4 @@ python3 main.py
 ```
 The architecture of the App:
 
-!(<a href="https://ibb.co/M6v1h4k"><img src="https://i.ibb.co/ZmjgJPz/Untitled-Diagram-2-2-8-drawio.png" alt="Untitled-Diagram-2-2-8-drawio" border="0"></a>)
+[![Untitled-Diagram-2-2-8-drawio.png](https://i.postimg.cc/LX6v1bz2/Untitled-Diagram-2-2-8-drawio.png)](https://postimg.cc/McNyktPF)
