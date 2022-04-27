@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyspark = "3.2.1"
+numpy = "1.22.3"
+pymongo = {extras = ["srv"], version = "4.1.1"}
+spark-nlp = "==3.4.3"
+typing = "*"
+findspark = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
