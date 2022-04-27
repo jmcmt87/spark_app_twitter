@@ -1,9 +1,9 @@
 import os
 import sys
 
-path_modules = [os.path.abspath('./utilities'), os.path.abspath('./charts')]
-for index, module in enumerate(path_modules):
-    sys.path.insert(index, module)
+# path_modules = [os.path.abspath('./utilities'), os.path.abspath('./charts')]
+# for index, module in enumerate(path_modules):
+#     sys.path.insert(index, module)
 
 import streamlit as st 
 import pandas as pd
