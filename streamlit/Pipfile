@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pymongo = {extras = ["srv"], version = "4.1.1"}
+streamlit = "1.8.1"
+pandas = "1.4.2"
+certifi = "2021.10.08"
+altair = "4.2.0"
+jupyter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
