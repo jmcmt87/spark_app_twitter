@@ -1,7 +1,7 @@
 # spark_app_twitter
 ## Monitoring Twitter Trends
 
-App for monitoring trends on Twitter, in this case scenario we use the Ukrainean War (2022) as a case scenario,
+App for monitoring trends on Twitter, in this case scenario we use the Ukranian War (2022) as a case scenario,
 the project can be used for different purposes just modifying the `config.json` file in `/tweepy_ingestion`, and also the `functions.py` 
 in `/tweepy_ingestion/utilities` in order to change the topics that will be created automatically.
 
