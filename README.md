@@ -19,7 +19,7 @@ docker-compose up -d
 ```
 * 2nd step: launching the script `/tweepy_ingestion/main.py` to start ingesting data and sending it to the kafka cluster.
 
-* 3rd step: launching the spark application to start processing the data `spark_app/main.py`.
+* 3rd step: launching the spark application to start processing the data `/spark_app/main.py`.
 
 * 4th step: launching the streamlit application in `/streamlit`, for that it's needed to use the command:
 
