@@ -27,7 +27,7 @@ docker-compose up -d
 streamlit run main.py
 ```
 
-You can use every Pipfile and Pipfile.lock to recreate the **pipenv environment** in the different folders:
+You can use every Pipfile and Pipfile.lock to recreate the **pipenv environment** in the different directories:
 
 ```
 pipenv sync
