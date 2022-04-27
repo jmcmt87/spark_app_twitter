@@ -5,7 +5,11 @@ App for monitoring trends on Twitter, in this case scenario we use the Ukrainean
 the project can be used for different purposes just modifying the `config.json` file in `/tweepy_ingestion`, and also the `functions.py` 
 in `/tweepy_ingestion/utilities` in order to change the topics that will be created automatically.
 
-### How to start it:
+Architecture of the App:
+
+[![Untitled-Diagram-2-2-8-drawio.png](https://i.postimg.cc/LX6v1bz2/Untitled-Diagram-2-2-8-drawio.png)](https://postimg.cc/McNyktPF)
+
+### Start:
 
 * 1st step: launching the kafka cluster, for that it's necessary to have docker-compose installed, launch it from
 `/kafka_cluster_step` using the command:
@@ -30,6 +34,3 @@ pipenv shell
 
 python3 main.py
 ```
-The architecture of the App:
-
-[![Untitled-Diagram-2-2-8-drawio.png](https://i.postimg.cc/LX6v1bz2/Untitled-Diagram-2-2-8-drawio.png)](https://postimg.cc/McNyktPF)
