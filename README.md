@@ -36,5 +36,5 @@ pipenv shell
 
 python3 main.py
 ```
-The Spark application is configured to work with AWS S3 bucket, AWS credentials are needed, as well as the Twitter API v2 Bearer Token and a 
+The Spark application is configured to work with AWS S3, AWS credentials are needed, as well as the Twitter API v2 Bearer Token and a 
 MongoDB Atlas cluster.
