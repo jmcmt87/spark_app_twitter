@@ -10,6 +10,7 @@ from sparknlp.annotator import *
 from sparknlp.base import *
 from pyspark.ml import Pipeline
 from datetime import datetime, timedelta
+import time
 import typing
 
 #ELT pipeline functions:
@@ -67,12 +68,22 @@ def transform_sentiment_df(spark:SparkSession, config:dict,
         else:
             date = datetime.now().strftime("%Y-%m-%d")
         pre_hour = (datetime.now() - timedelta(hours=1)).strftime("%H")
-        return f"{config.get('s3_path_raw')}/date={date}/hour={pre_hour}/*"
+        return  f"{config.get('s3_path_raw')}/date={date}/hour={pre_hour}/*"
 
     paths = give_current_path(config)
 
-    df = spark.read.format("parquet").load(paths)
-
+    try:
+        df = spark.read.format("parquet").load(paths)
+    except Exception:
+        time.sleep(3600)
+        hour = datetime.now().strftime("%H")
+        date = datetime.now().strftime('%Y-%m-%d')
+        paths = f"{config.get('s3_path_raw')}/date={date}/hour={hour}/*"
+        try:
+            df = spark.read.format("parquet").load(paths)
+        except Exception:
+            print('No path')
+            
     return sentiment_pipeline.annotate(df, 'text').select('created_at', 'text', 
         'topic', F.element_at(F.col('sentiment.result'), 1).alias('sentiment'))
 
