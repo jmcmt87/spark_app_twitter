@@ -9,6 +9,42 @@ Architecture of the App:
 
 [![Untitled-Diagram-2-2-8-drawio.png](https://i.postimg.cc/LX6v1bz2/Untitled-Diagram-2-2-8-drawio.png)](https://postimg.cc/McNyktPF)
 
+### Code map
+```
+spark_twitter_app
+|
+|__kafka_cluster_step
+|		    |__docker-compose.yaml
+|__tweepy_ingestion
+|		    |__tweepy_kafka.py
+|		    |__config.json
+|		    |__Pipfile
+|		    |__Pipfile.lock
+|		    |__utilities
+|			      |__ __init__.py
+|			      |__functions.py
+|__spark_app
+|         |__spark_app.py
+|	        |__config.json
+|	        |__Pipfile
+|         |__Pipfile.lock
+|         |__functions
+|		          |__ __init__.py
+|		          |__functions.py
+|__streamlit
+	     |__streamlit_app.py
+	     |__config.json
+	     |__Pipfile
+	     |__Pipfile.lock
+	     |__utilities
+	     |	      |__ __init__.py
+	     |	      |__utilities.py
+	     |__charts
+		      |__ __init__.py
+		      |__charts.py
+
+```
+
 ### Start:
 
 * 1st step: launching the kafka cluster, for that it's necessary to have docker-compose installed, launch it from
