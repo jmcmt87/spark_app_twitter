@@ -14,34 +14,35 @@ Architecture of the App:
 spark_twitter_app
 |
 |__kafka_cluster_step
-|		    |__docker-compose.yaml
+|		|__docker-compose.yaml
+|	
 |__tweepy_ingestion
-|		    |__tweepy_kafka.py
-|		    |__config.json
-|		    |__Pipfile
-|		    |__Pipfile.lock
-|		    |__utilities
-|			      |__ __init__.py
-|			      |__functions.py
+|		|__tweepy_kafka.py
+|		|__config.json
+|		|__Pipfile
+|		|__Pipfile.lock
+|		|__utilities
+|			  |__ __init__.py
+|			  |__functions.py
 |__spark_app
 |         |__spark_app.py
-|	        |__config.json
-|	        |__Pipfile
+|	  |__config.json
+|	  |__Pipfile
 |         |__Pipfile.lock
 |         |__functions
-|		          |__ __init__.py
-|		          |__functions.py
+|		   |__ __init__.py
+|		   |__functions.py
 |__streamlit
-	     |__streamlit_app.py
-	     |__config.json
-	     |__Pipfile
-	     |__Pipfile.lock
-	     |__utilities
-	     |	      |__ __init__.py
-	     |	      |__utilities.py
-	     |__charts
-		      |__ __init__.py
-		      |__charts.py
+     |__streamlit_app.py
+     |__config.json
+     |__Pipfile
+     |__Pipfile.lock
+     |__utilities
+     |	      |__ __init__.py
+     |	      |__utilities.py
+     |__charts
+	      |__ __init__.py
+	      |__charts.py
 
 ```
 
