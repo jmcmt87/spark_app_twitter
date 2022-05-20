@@ -7,7 +7,7 @@ in `/tweepy_ingestion/utilities` in order to change the topics that will be crea
 
 Architecture of the App:
 
-[![Untitled-Diagram-2-2-8-drawio.png](https://i.postimg.cc/LX6v1bz2/Untitled-Diagram-2-2-8-drawio.png)](https://postimg.cc/McNyktPF)
+![title](./Untitled-Diagram-2-2-8-drawio.png)
 
 ### Code map
 ```
