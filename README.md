@@ -5,7 +5,7 @@ App for monitoring trends on Twitter, we use the Ukranian War (2022) as a case s
 the project can be used for different purposes just modifying the `config.json` file in `/tweepy_ingestion`, and also the `functions.py` 
 in `/tweepy_ingestion/utilities` in order to change the topics that will be created automatically.
 
-Architecture of the App:
+### Architecture schema:
 
 ![title](./Untitled-Diagram-2-2-8-drawio.png)
 
