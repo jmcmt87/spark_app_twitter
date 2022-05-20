@@ -39,10 +39,11 @@ spark_twitter_app
      |__Pipfile.lock
      |__utilities
      |	      |__ __init__.py
-     |	      |__utilities.py
+     |        |__utilities.py
+     |
      |__charts
-	      |__ __init__.py
-	      |__charts.py
+	    |__ __init__.py
+	    |__charts.py
 
 ```
 
