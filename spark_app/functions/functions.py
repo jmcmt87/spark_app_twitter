@@ -88,7 +88,7 @@ def transform_sentiment_df(spark:SparkSession, config:dict,
         'topic', F.element_at(F.col('sentiment.result'), 1).alias('sentiment'))
 
 def process_df(sentiment_df:DataFrame, emotion_pipeline:Pipeline) -> DataFrame:
-    '''Performs emoion analysis on the texts and returns a dataframe with a new column
+    '''Performs emotion analysis on the texts and returns a dataframe with a new column
     with the emotions'''
     return emotion_pipeline.fit(sentiment_df).transform(sentiment_df) \
         .select('created_at', 'text', 'topic', 'sentiment',
