@@ -49,6 +49,14 @@ spark_twitter_app
 
 ```
 
+### Requirementes
+
+* Twitter Developer Account
+* Twitter API v2 Bearer Token
+* AWS S3 Credentials
+* AWS bucket
+* MongoDB Atlas cluster
+
 ### Start:
 
 * 1st step: launching the kafka cluster, for that it's necessary to have docker-compose installed, launch it from
@@ -76,13 +84,6 @@ pipenv shell
 
 python3 main.py
 ```
-### Requirementes
-
-* Twitter Developer Account
-* Twitter API v2 Bearer Token
-* AWS S3 Credentials
-* AWS bucket
-* MongoDB Atlas cluster
 
 # Screenshots
 
