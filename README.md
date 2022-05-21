@@ -87,3 +87,7 @@ python3 main.py
 # Screenshots
 
 ![title](./screenshot_app.png)
+
+![title](./screenshot_app_2.png)
+
+![title](./screenshot_app_3.png)
