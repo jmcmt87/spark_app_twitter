@@ -86,4 +86,4 @@ python3 main.py
 
 # Screenshots
 
-![title](./Screenshot 2022-05-18 at 12.58.00.png)
+![title](./"Screenshot 2022-05-18 at 12.58.00.png")
