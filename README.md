@@ -24,6 +24,7 @@ spark_twitter_app
 |		|__utilities
 |			  |__ __init__.py
 |			  |__functions.py
+|
 |__spark_app
 |         |__spark_app.py
 |	  |__config.json
