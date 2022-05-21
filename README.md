@@ -32,6 +32,7 @@ spark_twitter_app
 |         |__functions
 |		   |__ __init__.py
 |		   |__functions.py
+|
 |__streamlit
      |__streamlit_app.py
      |__config.json
