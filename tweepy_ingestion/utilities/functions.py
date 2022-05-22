@@ -17,7 +17,7 @@ producer = Producer(conf)
 
 # Defining Kafka functions
 
-def configure_create_topics(servers:str=servers, topics:list=[]) -> None:
+def configure_create_topics(servers:str=servers, topics:list) -> None:
     '''Configures and creates the necessary topics for the kafka cluster'''
 
     a = AdminClient({'bootstrap.servers': servers})
