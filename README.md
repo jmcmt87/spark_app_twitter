@@ -7,7 +7,7 @@ in `/tweepy_ingestion/utilities` in order to change the topics that will be crea
 
 ### Architecture schema:
 
-![title](./Untitled-Diagram-2-2-8-drawio.png)
+![title](./screenshots/Untitled-Diagram-2-2-8-drawio.png)
 
 ### Code map
 ```
@@ -87,8 +87,8 @@ python3 main.py
 
 # Screenshots
 
-![title](./screenshot_app.png)
+![title](./screenshots/screenshot_app.png)
 
-![title](./screenshot_app_2.png)
+![title](./screenshots/screenshot_app_2.png)
 
-![title](./screenshot_app_3.png)
+![title](./screenshots/screenshot_app_3.png)
