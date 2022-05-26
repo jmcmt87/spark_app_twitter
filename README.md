@@ -35,7 +35,7 @@ spark_twitter_app
 |		   |__functions.py
 |
 |__streamlit
-     |__streamlit_app.py
+     |__main.py
      |__config.json
      |__Pipfile
      |__Pipfile.lock
