@@ -55,7 +55,7 @@ def main():
                 config.get("SECRET_ACCESS_KEY")) \
         .config("spark.hadoop.fs.s3a.impl",
                 "org.apache.hadoop.fs.s3a.S3AFileSystem") \
-        .config('spark.sql.shuffle.partitions', 3) \
+        .config('spark.sql.shuffle.partitions', 8) \
         .config("spark.driver.memory","8G")\
         .config("spark.driver.maxResultSize", "0") \
         .config("spark.kryoserializer.buffer.max", "2000M")\
