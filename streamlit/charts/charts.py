@@ -1,7 +1,5 @@
 import pandas as pd
-import typing
 import altair as alt
-import numpy as np
 
 
 def check_string(string:str) -> None:
