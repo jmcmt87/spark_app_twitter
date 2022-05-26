@@ -17,7 +17,7 @@ spark_twitter_app
 |		|__docker-compose.yaml
 |	
 |__tweepy_ingestion
-|		|__tweepy_kafka.py
+|		|__main.py
 |		|__config.json
 |		|__Pipfile
 |		|__Pipfile.lock
