@@ -7,12 +7,9 @@ for index, module in enumerate(path_modules):
 
 import streamlit as st 
 import pandas as pd
-import altair as alt
-import numpy as np
 
 import pymongo
 import certifi 
-import typing
 
 from utilities.utilities import process_data, open_json
 from charts.charts import *
